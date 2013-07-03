@@ -1,0 +1,37 @@
+{
+  "name": "mashupdj-model",
+  "description": "Mongoose models for working with MashupDJ data.",
+  "version": "0.0.1",
+  "dependencies": {
+    "connect": "2.8.1",
+    "commander": "1.2.0",
+    "range-parser": "0.0.4",
+    "mkdirp": "0.3.5",
+    "cookie": "0.1.0",
+    "buffer-crc32": "0.2.1",
+    "fresh": "0.1.0",
+    "methods": "0.0.1",
+    "send": "0.1.1",
+    "cookie-signature": "1.0.1",
+    "debug": "*"
+  },
+  "devDependencies": {
+    "ejs": "*",
+    "mocha": "*",
+    "jade": "0.30.0",
+    "hjs": "*",
+    "stylus": "*",
+    "should": "*",
+    "connect-redis": "*",
+    "marked": "*",
+    "supertest": "0.6.0"
+  },
+  "main": "app",
+  "scripts": {
+    "prepublish": "npm prune",
+    "test": "make test"
+  },
+  "engines": {
+    "node": "*"
+  }
+}
